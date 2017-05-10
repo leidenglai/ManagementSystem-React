@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["es2015", {"modules": false}],
+    "react",
+    "stage-2",
+    ["env", { "modules": false, "targets": { "node": "current" } }]
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-decorators-legacy",
+    "react-hot-loader/babel",
+    ["import", {
+      "libraryName": "antd",
+      "style": true
+    }],
+    "lodash"
+  ],
+  "comments": false
+}
